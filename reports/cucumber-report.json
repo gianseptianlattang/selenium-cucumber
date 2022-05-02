@@ -1,0 +1,124 @@
+[
+  {
+    "description": "  User can bookmark a job in Kitalulus",
+    "elements": [
+      {
+        "id": "bookmark-a-job;bookmark-a-job-kitalulus",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Bookmark a Job Kitalulus",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User on the Kitalulus homepage",
+            "result": {
+              "status": "passed",
+              "duration": 5207554037
+            },
+            "line": 6,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/step-definitions/bookmark.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User should see \"Cari posisi dan perusahaan impianmu\"",
+            "result": {
+              "status": "passed",
+              "duration": 107436088
+            },
+            "line": 7,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/step-definitions/bookmark.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User can input \"QA Engineer\" to search vacancy",
+            "result": {
+              "status": "passed",
+              "duration": 1581010083
+            },
+            "line": 8,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/step-definitions/bookmark.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User should see bookmark button",
+            "result": {
+              "status": "passed",
+              "duration": 17716992
+            },
+            "line": 9,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/step-definitions/bookmark.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User can click bookmark button",
+            "result": {
+              "status": "failed",
+              "duration": 3505270170,
+              "error_message": "NoSuchWindowError: no such window: window was already closed\n  (Session info: chrome=101.0.4951.41)\n  (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Mac OS X 12.3.1 x86_64)\n    at Object.checkLegacyResponse (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/error.js:529:15)\n    at parseHttpResponse (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\nFrom: Task: WebDriver.findElements(By(css selector, img[alt='bookmark active']))\n    at thenableWebDriverProxy.schedule (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.findElements (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/webdriver.js:1048:22)\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/until.js:243:23\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/webdriver.js:938:14\n    at TaskQueue.execute_ (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:3092:14)\n    at TaskQueue.executeNext_ (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:3075:27)\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:2982:25\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:676:7\nFrom: Task: <anonymous>\n    at Timeout.pollCondition [as _onTimeout] (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:2203:19)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)\nFrom: Task: Waiting for element to be located By(css selector, img[alt='bookmark active'])\n    at scheduleWait (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:2196:20)\n    at ControlFlow.wait (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:2525:12)\n    at thenableWebDriverProxy.wait (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/page-objects/bookmark.js:34:20\n    at ManagedPromise.invokeCallback_ (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:1384:14)\n    at TaskQueue.execute_ (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:3092:14)\n    at TaskQueue.executeNext_ (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:3075:27)\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:2935:27\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/promise.js:676:7\n    at runMicrotasks (<anonymous>)"
+            },
+            "line": 10,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/step-definitions/bookmark.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User should see bookmark button with red background",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/step-definitions/bookmark.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 7571033,
+              "error_message": "NoSuchWindowError: no such window: window was already closed\n  (Session info: chrome=101.0.4951.41)\n  (Driver info: chromedriver=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}),platform=Mac OS X 12.3.1 x86_64)\n    at Object.checkLegacyResponse (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/error.js:529:15)\n    at parseHttpResponse (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at /Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/node_modules/selenium-webdriver/lib/webdriver.js:1083:17)\n    at createWorld.<anonymous> (/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/runtime/world.js:253:27)\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "Git/test/kitalulus/selenium-cucumber-js-web/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BookmarkJobKitalulus",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "bookmark-a-job",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Bookmark a Job",
+    "tags": [
+      {
+        "name": "@BookmarkJobKitalulus",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/nbmhqa023/Documents/Belajar Git/test/kitalulus/selenium-cucumber-js-web/features/bookmark.feature"
+  }
+]
